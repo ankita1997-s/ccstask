@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Css form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="rgform" <h1>Registration Form</h1></div>
+	<div class="main">
+		<form>
+			<div id="name">
+				<h2 class="name"></h2>
+				<input class="firstname" placeholder="" type="text" name="firstname" pattern="[A-Za-z]{0-30}"><br>
+				<label class="firstlable">Full Name</label>
+
+				<input class="number" id="tel" placeholder=""pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$" required>>
+				<label class="numlable">Mobile No.</label>
+			</div>
+			<h2 class="name"></h2>
+				<input type="email" id="email" placeholder=""pattern=".+@gmail.com" size="30" required><br>
+				<label class="elable">abc@gmail.com</label>
+				<label class="positiondesi">Branch</label>
+				<select class="position" name ="Position">
+					<option disabled="disabled" selected="selected">Choose Branch</option>
+					<option>IT</option>
+					<option>Computer Sci.</option>
+					<option>Electrical</option>
+
+				</select>
+				<div id="dot">
+			<button type="submit">Register</button>
+		
+		</form>
+	</div>
+
+</body>
+</html>  
